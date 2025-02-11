@@ -1,0 +1,597 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exploring The Hills</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    
+<!-- header section starts  -->
+
+<header>
+
+    <div id="menu-bar" class="fas fa-bars"></div>
+
+    <a href="#" class="logo"><span>Exploring</span>THE HILLS</a>
+
+    <nav class="navbar">
+        <a href="#home">home</a>
+        <a href="#book">book</a>
+        <a href="#packages">packages</a>
+        <a href="#services">services</a>
+        <a href="#gallery">gallery</a>
+        <a href="#review">review</a>
+        <a href="#contact">contact</a>
+    </nav>
+
+    <div class="icons">
+        <i class="fas fa-search" id="search-btn"></i>
+        <i class="fas fa-user" id="login-btn"></i>
+    </div>
+
+    <form action="" class="search-bar-container">
+        <input type="search" id="search-bar" placeholder="search here...">
+        <label for="search-bar" class="fas fa-search"></label>
+    </form>
+
+</header>
+
+<!-- login form container  -->
+
+<div class="login-form-container">
+
+    <i class="fas fa-times" id="form-close"></i>
+
+    <form action="">
+        <h3>login</h3>
+        <input type="email" class="box" placeholder="enter your email">
+        <input type="password" class="box" placeholder="enter your password">
+        <input type="submit" value="login now" class="btn">
+        <input type="checkbox" id="remember">
+        <label for="remember">remember me</label>
+        <p>forget password? <a href="#">click here</a></p>
+        <p>don't have and account? <a href="#">register now</a></p>
+    </form>
+
+</div>
+
+<!-- home section starts  -->
+
+<section class="home" id="home">
+
+    <div class="content">
+        <h3>adventure is worthwhile</h3>
+        <p>dicover new places with us, adventure awaits</p>
+        <a href="#" class="btn">discover more</a>
+    </div>
+
+    <div class="controls">
+        <span class="vid-btn active" data-src="image/vid-1"></span>
+        <span class="vid-btn" data-src="images/vid-2.mp4"></span>
+        <span class="vid-btn" data-src="images/vid-3.mp4"></span>
+        <span class="vid-btn" data-src="images/vid-4.mp4"></span>
+        <span class="vid-btn" data-src="images/vid-5.mp4"></span>
+    </div>
+
+    <div class="video-container">
+        <video src="images/vid-1.mp4" id="video-slider" loop autoplay muted></video>
+    </div>
+
+</section>
+
+<!-- home section ends -->
+
+<!-- book section starts  -->
+
+<section class="book" id="book">
+
+    <h1 class="heading">
+        <span>b</span>
+        <span>o</span>
+        <span>o</span>
+        <span>k</span>
+        <span class="space"></span>
+        <span>n</span>
+        <span>o</span>
+        <span>w</span>
+    </h1>
+
+    <div class="row">
+
+        <div class="image">
+            <img src="images/book-img.svg" alt="">
+        </div>
+
+        <form action="">
+            <div class="inputBox">
+                <h3>where to</h3>
+                <input type="text" placeholder="place name">
+            </div>
+            <div class="inputBox">
+                <h3>how many</h3>
+                <input type="number" placeholder="number of guests">
+            </div>
+            <div class="inputBox">
+                <h3>arrivals</h3>
+                <input type="date">
+            </div>
+            <div class="inputBox">
+                <h3>leaving</h3>
+                <input type="date">
+            </div>
+            <input type="submit" class="btn" value="book now">
+        </form>
+
+    </div>
+
+</section>
+
+<!-- book section ends -->
+
+<!-- packages section starts  -->
+
+<section class="packages" id="packages">
+
+    <h1 class="heading">
+        <span>p</span>
+        <span>a</span>
+        <span>c</span>
+        <span>k</span>
+        <span>a</span>
+        <span>g</span>
+        <span>e</span>
+        <span>s</span>
+    </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <img src="images/kedarnath.jpg" alt="">
+            <div class="content">
+                <h3> <i class="fas fa-map-marker-alt"></i> Shri Kedarnath </h3>
+                <p>Lord Siva Tample located at Rudrapryag District Uttarakhand.</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <div class="price"> &#x20b9;10000.00 <span>&#x20b9;15000.00</span> </div>
+                <a href="#" class="btn">book now</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="images/badrinath.jpg" alt="">
+            <div class="content">
+                <h3> <i class="fas fa-map-marker-alt"></i> Shri Badrinath </h3>
+                <p>Lord Narayana Tample located at Chamoli District Uttarakhand.</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <div class="price"> &#x20b9;11000.00 <span>&#x20b9;14000.00</span> </div>
+                <a href="#" class="btn">book now</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="images/gangotri.jpg" alt="">
+            <div class="content">
+                <h3> <i class="fas fa-map-marker-alt"></i> Shri Gangotri Dham </h3>
+                <p>Maa Gnanga tample located at Uttakrakshi District in Uttarakhand.</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <div class="price"> &#x20b9;5000.00<span>&#x20b9;7000.00</span> </div>
+                <a href="#" class="btn">book now</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="images/yamunotri.jpg" alt="">
+            <div class="content">
+                <h3> <i class="fas fa-map-marker-alt"></i> Shri Yamunotri Dham </h3>
+                <p>Maa Yamuna tample located at Uttakrakshi District in Uttarakhand.</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <div class="price"> &#x20b9;4000.00 <span>&#x20b9;6000.00</span> </div>
+                <a href="#" class="btn">book now</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="images/tungnath.jpg" alt="">
+            <div class="content">
+                <h3> <i class="fas fa-map-marker-alt"></i>Shri Tungnath</h3>
+                <p>Lord Siva Tample located at Rudrapryag District Uttarakhand.</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <div class="price"> &#x20b9; 12000.00 <span> &#x20b9; 18000.00</span> </div>
+                <a href="#" class="btn">book now</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="images/nainital.jpg" alt="">
+            <div class="content">
+                <h3> <i class="fas fa-map-marker-alt"></i> Nainital </h3>
+                <p>City of Lakes located at Nainital District Uttarakhand.</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <div class="price"> &#x20b9;7000.00 <span>&#x20b9;10000.00</span> </div>
+                <a href="#" class="btn">book now</a>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- packages section ends -->
+
+<!-- services section starts  -->
+
+<section class="services" id="services">
+
+    <h1 class="heading">
+        <span>s</span>
+        <span>e</span>
+        <span>r</span>
+        <span>v</span>
+        <span>i</span>
+        <span>c</span>
+        <span>e</span>
+        <span>s</span>
+    </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <i class="fas fa-hotel"></i>
+            <h3>affordable hotels</h3>
+            <p>We provide budget friendly Hotel rooms within the packages</p>
+        </div>
+        <div class="box">
+            <i class="fas fa-utensils"></i>
+            <h3>food and drinks</h3>
+            <p>We provide Best Quality foods and drinks within the packages</p>
+        </div>
+        <div class="box">
+            <i class="fas fa-bullhorn"></i>
+            <h3>safty guide</h3>
+            <p>We have well Experienced Guide </p>
+        </div>
+        <div class="box">
+            <i class="fas fa-globe-asia"></i>
+            <h3>around the Uttarakhand</h3>
+            <p>We provide all popular places tour all over Uttarakhand</p>
+        </div>
+        <div class="box">
+            <i class="fas fa-plane"></i>
+            <h3>fastest travel</h3>
+            <p>We have best trevel agencies. </p>
+        </div>
+        <div class="box">
+            <i class="fas fa-hiking"></i>
+            <h3>adventures</h3>
+            <p>Our tour have full of fun and joy and we pick some spacial places on each tour</p>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- services section ends -->
+
+<!-- gallery section starts  -->
+
+<section class="gallery" id="gallery">
+
+    <h1 class="heading">
+        <span>g</span>
+        <span>a</span>
+        <span>l</span>
+        <span>l</span>
+        <span>e</span>
+        <span>r</span>
+        <span>y</span>
+    </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <img src="images/kedarnath2.jpg" alt="">
+            <div class="content">
+                <h3>Shri Kedarnath</h3>
+                <p>Rudrapryag, Uttarakhand</p>
+                <a href="#" class="btn">see more</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/badrinath2.jpg" alt="">
+            <div class="content">
+                <h3>Shri Badrinath</h3>
+                <p>Chamoli, Uttarakhand</p>
+                <a href="#" class="btn">see more</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/chandrshila.jpg" alt="">
+            <div class="content">
+                <h3>Chandrshila</h3>
+                <p>Chopta, Uttarakhand</p>
+                <a href="#" class="btn">see more</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/tungnath2.jpg" alt="">
+            <div class="content">
+                <h3>Tungnath</h3>
+                <p>Chopta, Uttarakhand</p>
+                <a href="#" class="btn">see more</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/gangotri.jpg" alt="">
+            <div class="content">
+                <h3>Gangotri Dham </h3>
+                <p>Uttakrakshi, Uttarakhand</p>
+                <a href="#" class="btn">see more</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/yamunotri.jpg" alt="">
+            <div class="content">
+                <h3>Yamunotri Dham</h3>
+                <p>Uttakrakshi, Uttarakhand</p>
+                <a href="#" class="btn">see more</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/mussoorie.jpg" alt="">
+            <div class="content">
+                <h3>Mussoorie</h3>
+                <p>Dehradun, Uttarakhand</p>
+                <a href="#" class="btn">see more</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/bhimtal.jpg" alt="">
+            <div class="content">
+                <h3>Bhimtal</h3>
+                <p>Bhimatal, Uttarakhand</p>
+                <a href="#" class="btn">see more</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/nainital.jpg" alt="">
+            <div class="content">
+                <h3>Nainital</h3>
+                <p>Nainital, Uttarakhand</p>
+                <a href="#" class="btn">see more</a>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- gallery section ends -->
+
+<!-- review section starts  -->
+
+<section class="review" id="review">
+
+    <h1 class="heading">
+        <span>r</span>
+        <span>e</span>
+        <span>v</span>
+        <span>i</span>
+        <span>e</span>
+        <span>w</span>
+    </h1>
+
+    <div class="swiper-container review-slider">
+
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide">
+                <div class="box">
+                    <img src="images/manoj .png" alt="">
+                    <h3>Manoj Singh</h3>
+                    <p>I really enjoyed the trip provided by the tourists and guide (Exploring the Hills ) the facilities, food is very healthy and tasty and the rooms that are provided are very comfortable .</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="box">
+                    <img src="images/abhishek.jpeg" alt="">
+                    <h3>Abhishek Chaubey</h3>
+                    <p>I really enjoyed the trip provided by the tourists and guide (Exploring the Hills ) the facilities, food is very healthy and tasty and the rooms that are provided are very comfortable .!</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="box">
+                    <img src="images/kunal.png" alt="">
+                    <h3>Kunal Tomar</h3>
+                    <p>I really enjoyed the trip provided by the tourists and guide (Exploring the Hills ) the facilities, food is very healthy and tasty and the rooms that are provided are very comfortable.</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="box">
+                    <img src="images/arshiya.jpeg" alt="">
+                    <h3>Arshiya Mahajan</h3>
+                    <p>I really enjoyed the trip provided by the tourists and guide (Exploring the Hills ) the facilities, food is very healthy and tasty and the rooms that are provided are very comfortable .</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- review section ends -->
+
+<!-- contact section starts  -->
+
+<section class="contact" id="contact">
+    
+    <h1 class="heading">
+        <span>c</span>
+        <span>o</span>
+        <span>n</span>
+        <span>t</span>
+        <span>a</span>
+        <span>c</span>
+        <span>t</span>
+    </h1>
+
+    <div class="row">
+
+        <div class="image">
+            <img src="images/contact-img.svg" alt="">
+        </div>
+
+        <form action="">
+            <div class="inputBox">
+                <input type="text" placeholder="name">
+                <input type="email" placeholder="email">
+            </div>
+            <div class="inputBox">
+                <input type="number" placeholder="number">
+                <input type="text" placeholder="subject">
+            </div>
+            <textarea placeholder="message" name="" id="" cols="30" rows="10"></textarea>
+            <input type="submit" class="btn" value="send message">
+        </form>
+
+    </div>
+    
+</section>
+
+
+<!-- footer section  -->
+
+<section class="footer">
+
+    <div class="box-container">
+
+        <div class="box">
+            <h3>about us</h3>
+            <p> We "Exploring the Hills", tourists and guide(Uttarakhand), you all can connect to us, we are  providing the adventurous trips all over uttrakhand, including all the food facilities and venue to stay with extra co-curricular activities.</p>
+        </div>
+        <div class="box">
+            <h3>branch locations</h3>
+            <a href="#">Deharadun</a>
+            <a href="#">Champawat</a>
+            <a href="#">Delhi</a>
+            <a href="#">Rajsathan</a>
+            <a href="#">Jammu & Kashmir</a>
+        </div>
+        <div class="box">
+            <h3>quick links</h3>
+            <a href="#home">home</a>
+            <a href="#book">book</a>
+            <a href="#packages">packages</a>
+            <a href="#services">services</a>
+            <a href="#gallery">gallery</a>
+            <a href="#review">review</a>
+            <a href="#contact">contact</a>
+        </div>
+        <div class="box">
+            <h3>follow us</h3>
+            <a href="">instagram</a>
+            <a href="">twitter</a>
+            <a href="">linkedin</a>
+        </div>
+
+    </div>
+
+    <h1 class="credit"> created by <span > Tanuja Tiwari</span> | all rights reserved! </h1>
+
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+<!-- custom js file link  -->
+<script src="script.js"></script>
+
+</body>
+</html>
